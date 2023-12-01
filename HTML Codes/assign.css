@@ -1,0 +1,108 @@
+.navbar{
+   
+    height: 400px;
+}
+
+.block1,.block2,.block3{
+    border: 2px solid black;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.menublock{
+    
+    height: 75px;
+    width: 500px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+
+.navblock{
+   
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+[target="_blank"]{
+    font-size: xx-large;
+    color: white;
+}
+
+[target="_self"]{
+    font-size: xx-large;
+    color: black;
+}
+
+
+#home{
+    font-size:x-large;
+    color: white;
+}
+
+#sehome{
+    font-size:x-large;
+    color: black;
+}
+
+[target="_parent"]{
+    font-size:large;
+    color: grey;
+}
+
+
+input{
+    height: 35px;
+    
+}
+
+button{
+  height: 41px;    
+}
+
+#b1{
+    
+    background-color: black;
+}
+#b2{
+    border: 2px solid blue;
+    background-color: blue;
+}
+#b3{
+    border: 2px solid silver;
+    background-color: white;
+    color: black;
+}
+
+#black{
+    background-color: black;
+    border-color:  whitesmoke;
+    color: gainsboro;
+}
+
+#blue{
+    background-color: blue;
+    border: 2px solid whitesmoke;
+    color: gainsboro;
+}

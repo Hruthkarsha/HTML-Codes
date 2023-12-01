@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        
+        <!--Pseudo Element Selectors-->
+        h1::after{                  
+            content: "School";
+        }
+        h1::before{
+            content: "The ";
+        }
+        h1::first-letter{
+            color: maroon;
+        }
+        h1::first-line{
+            background-color: aquamarine;
+        }
+        li::marker{
+            
+            content: "✨";
+        }   
+        li::hover{          
+            background-color: darkorange;
+            color: darkblue;
+        }
+
+
+        <!--Pseudo Class Selector-->
+        a:active{               
+            color:crimson;
+        }
+        a:link{
+            color:fuchsia;
+            background-color: cyan;
+        }
+        a:visited{
+            color:firebrick ;
+        }
+        #p1:hover{
+            background-color: chocolate;
+            color: white;
+        }
+        a{                      
+            font-size: 20px;
+            text-align: center;
+        }
+
+        <!--Structural Pseudo Class-->
+        p:first-child{             
+            color: coral;
+        }
+        p:first-of-type{
+            background-color: lime;
+        }
+        p:last-child{
+            color: purple;
+        }
+        p:last-of-type{
+            background-color: palegreen;
+        }
+        p:nth-child(2){
+            caret-color: burlywood;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Fruits </h1>
+    <p>Mango</p>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Citrus</li>
+        <li>Dragon Fruit</li>
+        <li>Evergreen huckleberry</li>
+        <p id="p1">Fruits are <span>good for</span> Health.</p>
+        <a href="https://www.Fruits.com" target="_blank">Fruits</a>
+    </ul>
+    <h3>Heading1</h3>
+    <p>para1</p>
+    <p>para2</p>
+    <p>para3</p>
+    <h3>Heading2</h3>
+    <div>
+        <p>Coconut</p>
+        <p>Icecream</p>
+        <p>party</p>
+    </div>
+    <div>
+        <p>Sweet</p>
+        <p>corn</p>
+        <p>masala</p>
+        <h2>Orange</h2>
+    </div>
+</body>
+</html>
